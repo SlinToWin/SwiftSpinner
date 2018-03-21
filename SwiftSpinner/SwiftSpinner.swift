@@ -383,7 +383,7 @@ public class SwiftSpinner: UIView {
                 subtitle.lineBreakMode = .byWordWrapping
                 subtitle.bounds.size = subtitle.sizeThatFits(bounds.insetBy(dx: 20.0, dy: 0.0).size)
                 subtitle.center = CGPoint(x: bounds.midX, y: bounds.maxY - subtitle.bounds.midY - subtitle.font.pointSize)
-                vibrancyView.contentView.addSubview(subtitle)
+                addSubview(subtitle)
             }
         }
     }
